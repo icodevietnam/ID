@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>
+<html class="ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]>
+<html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9" lang="en"><![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><!--<![endif]-->
+<head>
+	<title>Shopping mall</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!-- Seo Meta -->
+	<meta name="description" content="Shopping mall">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="styles/jquery-ui.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="styles/shop.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="styles/icons.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="styles/animate.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="js/layerslider/css/layerslider.css">
+	<link rel="stylesheet" type="text/css" href="js/layerslider/css/custom.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EmulateIE8; IE=EDGE" />
+	<script src="js/html5.js"></script>
+	<![endif]-->
+	<style>
+		.sign_in {
+			margin-left: 5px;
+		}
+	</style>
+</head>
+<body>
+<div id="frame_">
+	<div id="layout" class="full">
+		<header id="header">
+			<div class="head_up">
+				<div class="row clearfix">
+					<div class="l_ht">
+						<span><i class="icon_mobile"></i>(08) 379956456</span>
+						<span><i class="icon_pin_alt"></i>123 CMT8, P3, Q.Tan Binh ‎</span>
+					</div>
+					<!-- end text left -->
+
+					<div class="r_ht">
+						<div class="sign_in" id="sign_in">
+							<div id="sign_in_btn">
+								<div id="Login_PopUp_Link" class="tbutton small"><span>Sign In</span></div>
+							</div>
+
+							<!-- popup login -->
+							<div id="popupLogin">
+								<div class="d_block">
+									<div class="d_block2">
+										<h4> Sign In </h4><span class="liner"></span>
+
+										<div class="widget-content row-fluid">
+											<form id="popup_login_form">
+												<input type="text" name="login_username" id="login_username" onfocus="if (this.value=='guest') this.value = '';" onblur="if (this.value=='') this.value = 'guest';" value="guest" placeholder="guest">
+												<input type="password" name="login_password" id="login_password" onfocus="if (this.value=='123') this.value = '';" onblur="if (this.value=='') this.value = '123';" value="123" placeholder="123">
+												<a id="signInButton" class="tbutton small"><span>Sign In</span></a>
+											</form>
+											<!-- login form -->
+										</div>
+										<!-- content -->
+									</div>
+									<!-- d block -->
+								</div>
+								<!-- d block2 -->
+								<div id="popupLoginClose">x</div>
+							</div>
+							<!-- popup login -->
+							<div id="LoginBackgroundPopup"></div>
+							<!-- popup login -->
+						</div>
+						<!-- end signin -->
+
+						<div class="social social_head">
+							<a href="#" class="bottomtip" title="Twitter"><i class="fa-twitter"></i></a>
+							<a href="#" class="bottomtip" title="Facebook"><i class="fa-facebook"></i></a>
+							<a href="#" class="bottomtip" title="Dribbble"><i class="fa-dribbble"></i></a>
+							<a href="#" class="bottomtip" title="Pinterest"><i class="fa-pinterest"></i></a>
+							<a href="#" class="bottomtip" title="RSS"><i class="fa-rss"></i></a>
+						</div>
+						<!-- end social -->
+					</div>
+					<!-- end social and bag -->
+				</div>
+				<!-- row -->
+			</div>
+			<!-- head -->
+
+			<div class="headdown">
+				<div class="row clearfix">
+					<div class="logo">
+						<a href="index.html" title="LOGO"><img src="images/Olympic-logo.png" alt="LOGO" width="190" height="66"></a>
+					</div>
+
+
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a></li>
+							<li class="current"><a href="shop.html">Products</a></li>
+							<li><a href="about_us.html">About Us</a></li>
+						</ul>
+						<!-- end menu -->
+					</nav>
+					<!-- end nav -->
+				</div>
+				<!-- row -->
+			</div>
+			<!-- headdown -->
+		</header>
+		<!-- end header -->
+
+		<div class="page-content">
+			<div class="row clearfix mb">
+				<div class="shop_slider">
+					<div id="layerslider-container-fw-second">
+						<div id="layerslider" style="width: 100%; height: 500px; margin: 0px auto">
+
+							<div class="ls-layer" style="slidedirection: all; transition3d: all; slidedelay: 1000;">
+								<img class="ls-bg" src="images/shop/main_place.jpg" alt="">
+							</div>
+
+							<div class="ls-layer" style="slidedirection: all; transition3d: all; slidedelay: 1000;">
+								<img class="ls-bg" src="images/shop/intro-banner5.jpg" alt="">
+							</div>
+
+							<div class="ls-layer" style="slidedirection: all; transition3d: all; slidedelay: 1000;">
+								<img class="ls-bg" src="images/shop/home-shopping.jpg" alt="">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<span class="after_line mtf mbf"></span>
+
+			<div class="row">
+				<div class="col-lg-4 left">
+					<form action="search_result.html" id="search" method="get">
+						<div class="input-group">
+							<input id="inputhead" class="form-control" name="search" type="text" placeholder="Start Searching ...">
+							<span class="input-group-btn">
+							<button type="button" id="search-submit" class="btn btn-info"><i class="icon_search"></i>
+							</button>
+								</span>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row clearfix mbs">
+
+				<div class="grid_9">
+
+					<div class="products shop clearfix mbf">
+						<div class="product grid_4">
+							<img class="product_img" src="images/shop/533d0a9b78206.jpg" alt=""><!-- featured thumbnail -->
+							<img class="product_img_hover" src="images/shop/533d0a9b78206.jpg" alt=""><!-- featured thumbnail hover -->
+							<div class="sale">Sale</div>
+							<div class="product_inner">
+								<h3><a href="shop_product.html"> Product Title Here </a></h3>
+
+								<div class="clearfix">
+									<p class="price"> $789 </p>
+
+									<p class="rating">
+										<i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star_alt"></i>
+									</p>
+								</div>
+							</div>
+							<div class="product_meta clearfix">
+								<a href="shop_product.html" class="f_btn add_c"><span><i class="icon_cart_alt"></i> Add to Cart</span></a>
+								<a href="shop_product.html" class="f_btn"><span><i class="icon_menu"></i> Details</span></a>
+							</div>
+						</div>
+						<!-- product -->
+
+						<div class="product grid_4">
+							<img class="product_img" src="images/shop/533d35a4986a9.jpg" alt=""><!-- featured thumbnail -->
+							<img class="product_img_hover" src="images/shop/533d35a4986a9.jpg" alt=""><!-- featured thumbnail hover -->
+							<div class="product_inner">
+								<h3><a href="shop_product.html"> Product Title Here </a></h3>
+
+								<div class="clearfix">
+									<p class="price"> $668 </p>
+
+									<p class="rating">
+										<i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i>
+									</p>
+								</div>
+							</div>
+							<div class="product_meta clearfix">
+								<a href="shop_product.html" class="f_btn add_c"><span><i class="icon_cart_alt"></i> Add to Cart</span></a>
+								<a href="shop_product.html" class="f_btn"><span><i class="icon_menu"></i> Details</span></a>
+							</div>
+						</div>
+						<!-- product -->
+
+						<div class="product grid_4">
+							<img class="product_img" src="images/shop/5s.png" alt=""><!-- featured thumbnail -->
+							<img class="product_img_hover" src="images/shop/5s.png" alt=""><!-- featured thumbnail hover -->
+							<div class="product_inner">
+								<h3><a href="shop_product.html"> Product Title Here </a></h3>
+
+								<div class="clearfix">
+									<p class="price"> $557 </p>
+
+									<p class="rating">
+										<i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+									</p>
+								</div>
+							</div>
+							<div class="product_meta clearfix">
+								<a href="shop_product.html" class="f_btn add_c"><span><i class="icon_cart_alt"></i> Add to Cart</span></a>
+								<a href="shop_product.html" class="f_btn"><span><i class="icon_menu"></i> Details</span></a>
+							</div>
+						</div>
+						<!-- product -->
+
+						<div class="product grid_4">
+							<img class="product_img" src="images/shop/001_RBI-image-DCN034690I01.jpg" alt=""><!-- featured thumbnail -->
+							<img class="product_img_hover" src="images/shop/001_RBI-image-DCN034690I01.jpg" alt=""><!-- featured thumbnail hover -->
+							<div class="product_inner">
+								<h3><a href="shop_product.html"> Product Title Here </a></h3>
+
+								<div class="clearfix">
+									<p class="price"> $458 </p>
+
+									<p class="rating">
+										<i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star_alt"></i>
+									</p>
+								</div>
+							</div>
+							<div class="product_meta clearfix">
+								<a href="shop_product.html" class="f_btn add_c"><span><i class="icon_cart_alt"></i> Add to Cart</span></a>
+								<a href="shop_product.html" class="f_btn"><span><i class="icon_menu"></i> Details</span></a>
+							</div>
+						</div>
+						<!-- product -->
+
+						<div class="product grid_4">
+							<img class="product_img" src="images/shop/bristol-towers-deyaar-702762.jpg" alt=""><!-- featured thumbnail -->
+							<img class="product_img_hover" src="images/shop/bristol-towers-deyaar-702762.jpg" alt=""><!-- featured thumbnail hover -->
+							<div class="product_inner">
+								<h3><a href="shop_product.html"> Product Title Here </a></h3>
+
+								<div class="clearfix">
+									<p class="price"> $220 </p>
+
+									<p class="rating">
+										<i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star_alt"></i><i class="icon_star_alt"></i>
+									</p>
+								</div>
+							</div>
+							<div class="product_meta clearfix">
+								<a href="shop_product.html" class="f_btn add_c"><span><i class="icon_cart_alt"></i> Add to Cart</span></a>
+								<a href="shop_product.html" class="f_btn"><span><i class="icon_menu"></i> Details</span></a>
+							</div>
+						</div>
+						<!-- product -->
+
+						<div class="product grid_4">
+							<img class="product_img" src="images/shop/Glen-Iris-Road-Apartments_thumb.jpg" alt=""><!-- featured thumbnail -->
+							<img class="product_img_hover" src="images/shop/Techne_BaysideFoodCourt_00.gif" alt=""><!-- featured thumbnail hover -->
+							<div class="product_inner">
+								<h3><a href="shop_product.html"> Product Title Here </a></h3>
+
+								<div class="clearfix">
+									<p class="price"> $180 </p>
+
+									<p class="rating">
+										<i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i>
+									</p>
+								</div>
+							</div>
+							<div class="product_meta clearfix">
+								<a href="shop_product.html" class="f_btn add_c"><span><i class="icon_cart_alt"></i> Add to Cart</span></a>
+								<a href="shop_product.html" class="f_btn"><span><i class="icon_menu"></i> Details</span></a>
+							</div>
+						</div>
+						<!-- product -->
+					</div>
+					<!-- products -->
+
+					<!-- pagination -->
+				</div>
+				<!-- posts -->
+
+				<div class="grid_3 sidebar">
+
+					<!-- widget -->
+
+					<div class="widget">
+						<h3 class="col-title"> Top Sellers </h3>
+						<ul class="tab-content-items">
+							<li class="clearfix">
+								<a class="post-thumbnail" href="#"><img width="60" height="60" src="images/shop/shop_thumb1.jpg" alt="#"></a>
+
+								<h3><a href="#">Product Title Here</a></h3>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i> </span>
+								<span class="price"> $380 </span>
+							</li>
+							<li class="clearfix">
+								<a class="post-thumbnail" href="#"><img width="60" height="60" src="images/shop/shop_thumb2.jpg" alt="#"></a>
+
+								<h3><a href="#">Product Title Here</a></h3>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i> </span>
+								<span class="price"> $178 </span>
+							</li>
+							<li class="clearfix">
+								<a class="post-thumbnail" href="#"><img width="60" height="60" src="images/shop/shop_thumb3.jpg" alt="#"></a>
+
+								<h3><a href="#">Product Title Here</a></h3>
+								<span class="rating"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i> </span>
+								<span class="price"> $220 </span>
+							</li>
+						</ul>
+					</div>
+					<!-- widget -->
+
+					<div class="widget">
+						<h3 class="col-title"> Text Widget </h3>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+					</div>
+					<!-- widget Text -->
+
+				</div>
+				<!-- sidebar -->
+
+			</div>
+			<!-- row -->
+		</div>
+		<!-- end page content -->
+
+		<footer id="footer">
+			<!-- row -->
+
+			<div class="footer-last">
+				<div class="row clearfix">
+					<span class="copyright">© 2015 <a href="#" class="toptip" title="Design and Development">My name</a></span>
+
+					<div id="toTop" class="toptip" title="Back to Top"><i class="fa-angle-up"></i></div>
+					<!-- Back to top -->
+
+					<div class="foot-menu">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">F.A.Q</a></li>
+							<li><a href="portfolio4.html">Portfolio</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<!-- end links -->
+					</div>
+					<!-- end foot menu -->
+				</div>
+				<!-- end row -->
+			</div>
+			<!-- end last footer -->
+
+		</footer>
+		<!-- end footer -->
+
+	</div>
+	<!-- end layout -->
+</div>
+<!-- end frame -->
+
+<!-- Scripts -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/theme20.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script src="js/layerslider/jQuery/jquery-transit-modified.js" type="text/javascript"></script>
+<script src="js/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="js/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+	/* <![CDATA[ */
+	$(document).ready(function () {
+		$('#layerslider').layerSlider({
+			skinsPath: 'js/layerslider/skins/',
+			skin: 'borderlessdark3d',
+			thumbnailNavigation: 'hover',
+			hoverPrevNext: true,
+			navButtons: false,
+			navStartStop: false,
+			responsive: true,
+			pauseOnHover: true,
+			responsiveUnder: 1140,
+			sublayerContainer: 1140
+		});
+		$(function () {
+			$("#price-range").slider({
+				range: true,
+				min: 0,
+				max: 3000,
+				values: [15, 1900],
+				slide: function (event, ui) {
+					$("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+				}
+			});
+			$("#amount").val("$" + $("#price-range").slider("values", 0) + " - $" + $("#price-range").slider("values", 1));
+		});
+
+		searchProducts();
+
+		/*Search function*/
+
+		jQuery('#search-submit').click(function (e) {
+			e.preventDefault();
+			searchProducts();
+		});
+		$('#inputhead').on("keypress", function (e) {
+			if (e.keyCode == 13) {
+				e.preventDefault();
+				searchProducts();
+			}
+			;
+		});
+		$('#signInButton').on("click", function (e) {
+			e.preventDefault();
+			$('#popup_login_form').submit();
+		});
+		$('#popup_login_form').on("submit", function (e) {
+			e.preventDefault();
+			if ($('#login_username').val() == 'guest' && $('#login_password').val() == '123') {
+				var toAppend = '<span> Welcome guest </span>'
+						+ '<a id="sign_out_link">Sign out</a>';
+				$('#sign_in_btn').html(toAppend);
+				$("#LoginBackgroundPopup").fadeOut("slow");
+				$("#popupLogin").removeClass('zigmaIn').fadeOut("slow");
+			} else {
+				alert('Invalid username or password. Please try again.');
+			}
+		});
+		$(document).on("click", '#sign_out_link', function (e) {
+			e.preventDefault();
+			alert('Goodbye!')
+			$('#sign_in_btn').html('<div id="Login_PopUp_Link" class="tbutton small"><span>Sign In</span></div>');
+		});
+	});
+	/* ]]> */
+
+	function searchProducts() {
+		jQuery('.products').html('');
+		var search_query = jQuery('#inputhead').val();
+		var search_query_regex = new RegExp(".*" + search_query + ".*", "g");
+		$.getJSON("DB/db.json", function (data) {
+			jQuery.each(data["products"], function (k, v) {
+				var appendHtml = '<div class="product grid_4">'
+						+ ' <img class="product_img" src="images/shop/' + v["img"] + '" alt="">'
+						+ ' <img class="product_img_hover" src="images/shop/' + v["img"] + '" alt="">'
+						+ ' <div class="product_inner">'
+						+ ' <h3><a href="shop_product.html"> ' + v["name"] + ' </a></h3>'
+						+ ' <div class="clearfix"><p class="price"> $' + v["price"] + '</p>'
+						+ ' <p class="rating">'
+						+ ' <i class="icon_star"></i>'
+						+ ' <i class="icon_star"></i>'
+						+ ' <i class="icon_star"></i>'
+						+ ' <i class="icon_star_alt"></i>'
+						+ ' <i class="icon_star_alt"></i>'
+						+ ' </p>'
+						+ ' </div>'
+						+ ' </div>'
+						+ ' <div class="product_meta clearfix">'
+						+ ' <a href="shop_product.html" class="f_btn add_c">'
+						+ ' <span><i class="icon_cart_alt"></i> Add to Cart</span>'
+						+ ' </a>'
+						+ ' <a href="shop_product.html" class="f_btn">'
+						+ ' <span><i class="icon_menu"></i> Details</span>'
+						+ ' </a>'
+						+ ' </div>'
+						+ ' </div>';
+				if (search_query != "") {
+					if (search_query_regex.test(v['name']) ||
+							search_query_regex.test(v['id'])) {
+						jQuery('.products').append(appendHtml);
+					}
+				}
+				else {
+					jQuery('.products').append(appendHtml);
+				}
+			});
+		});
+	}
+</script>
+</body>
+</html>

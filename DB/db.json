@@ -1,0 +1,44 @@
+{
+  "users":[
+    {
+      "username":"user1",
+      "password":"123"
+    },
+    {
+      "username":"user2",
+      "password":"123"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Shopping mall 1135",
+      "img": "533d0a9b78206.jpg",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "name": "Shopping mall 2464",
+      "img": "533d35a4986a9.jpg",
+      "price": 550
+    },
+    {
+      "id": 3,
+      "name": "Shopping mall 34654",
+      "img": "5s.png",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Shopping mall 4",
+      "img": "001_RBI-image-DCN034690I01.jpg",
+      "price": 800
+    },
+    {
+      "id": 5,
+      "name": "Shopping mall 5",
+      "img": "bristol-towers-deyaar-702762.jpg",
+      "price": 600
+    }
+  ]
+}
