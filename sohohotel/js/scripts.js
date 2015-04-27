@@ -93,7 +93,7 @@ $(document).ready(function() {
 
 	// Header Google Map
 	$(".gmap-button").click(function(){
-		$('#header-gmap').slideToggle(900);
+		$('#header-gmap_remove').slideToggle(900);
 		if (!map) {
 			initialize(51.523728,-0.079336);
 		}

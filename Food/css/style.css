@@ -1018,3 +1018,9 @@ footer .tm {
 .map_locations {
   display: none;
 }
+p.zoomOutUp{
+  color: hsl();
+}
+.infinite{
+  color: #994f4f;
+}
