@@ -1,6 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author:
+Author URL: http://.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
@@ -23,7 +23,7 @@ input [type="text"],input [type="submit"],input [type="button"],textarea{
 .header{
 	padding: 1em 0;
 	background: url(../images/header-bg.png) no-repeat 0px 0px;
-	background-size: 27% 100%;
+	background-size: 30% 100%;
 }
 .logo{
 	float:left;
